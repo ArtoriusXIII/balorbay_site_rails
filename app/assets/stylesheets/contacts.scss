@@ -1,0 +1,35 @@
+///CONTACT
+section#contact {
+    background-color: #212529;
+    background-image: url('https://s3-eu-west-1.amazonaws.com/balorbay-airbnb-shortletting/dublin-map1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    margin-bottom: auto;
+}
+section#contact  h2.section-heading {
+    color: #FFF3CE;
+    padding-bottom: 17px;
+    font-family: 'caecilia_lightregular', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    margin: 40px 0;
+    }
+section#contact h3.section-subheading{
+    color: #FFF3CE;
+    padding-bottom: 17px;
+    font-family: 'caecilia_lightregular', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 40px 0;
+}
+section#contact form#contactForm{
+    margin: 0 12px;
+}
