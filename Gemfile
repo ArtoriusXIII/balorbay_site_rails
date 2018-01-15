@@ -16,6 +16,8 @@ gem 'carrierwave'
 gem 'mini_magick'
 gem 'fog-aws'
 gem 'unf'
+#Gem for Contact form & Sendgrid-Setup
+gem 'mail_form', '~> 1.5', '>= 1.5.1'
 #Gems for server
 gem 'puma', '~> 3.0'
 #Gems for design

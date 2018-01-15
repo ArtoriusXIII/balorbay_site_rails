@@ -1,19 +1,10 @@
 Rails.application.routes.draw do
 
-
-  #get 'pages/about'
   get '/about' => 'pages#about'
-  
   get '/services' => 'pages#services'
-
-  get 'pages/contact'
-
-    
   get '/team' => 'pages#team'
-  
-
-
+  match '/contacts',     to: 'contacts#new',             via: 'get'
+  resources "contacts", only: [:new, :create]
   root 'pages#index'
 
- 
 end

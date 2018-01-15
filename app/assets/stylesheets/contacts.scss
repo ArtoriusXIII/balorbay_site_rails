@@ -1,0 +1,86 @@
+///CONTACT
+section#contact-head-section {
+    margin-right: -15px;
+    margin-left: -15px;
+
+    background-image: url('https://s3-eu-west-1.amazonaws.com/balorbay-airbnb-shortletting/dublin-map1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    margin-bottom: auto;
+    .contact-jumbotron2{
+  //background-color: rgba(215,226,241,0.9);
+    background-color: rgba(055, 056, 051, 0.7);
+    margin: 8rem 0;
+    border: 1px dashed deeppink;
+    }
+    .hidden{
+        display: none;
+    }
+    h1.section-heading {
+    text-transform: uppercase;
+      color: #FFF3CE;
+      text-shadow: 0px 2px 3px #555;
+      font-family: inherit;
+      font-weight: 800;
+      line-height: 2;
+    }
+    h3.section-subheading{
+    color: #FFF3CE;
+    font-family: 'caecilia_lightregular', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 1rem 0;
+    }
+    textarea{
+            min-height: 11.5rem;
+        }
+    
+}
+section#contact-create-section{
+    background-image: url('https://s3-eu-west-1.amazonaws.com/balorbay-airbnb-shortletting/Contact+Page/room_setting-oldmap.jpg');
+    margin-right: -15px;
+    margin-left: -15px;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 800px;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    margin-bottom: auto;
+  .jumbotron{
+  //background-color: rgba(215,226,241,0.9);
+    background-color: rgba(055, 056, 051, 0.7);
+    margin-top: 2rem;
+    margin-left: 20%;
+    border: 1px dashed deeppink;
+    }
+    h3.section-subheading{
+    color: #FFF3CE;
+    font-family: 'caecilia_lightregular', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 1rem 0;
+    }
+    .m-5{
+      color: #FFF3CE;
+    font-family: 'caecilia_lightregular', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    margin: 1rem 0;
+    }
+
+}
+
