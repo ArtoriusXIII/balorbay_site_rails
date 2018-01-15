@@ -32,4 +32,13 @@ section#contact h3.section-subheading{
 }
 section#contact form#contactForm{
     margin: 0 12px;
+    
+    input{
+       min-height: 2.5rem;
+       margin-bottom: 2rem;
+  
+    }
+    textarea{
+        min-height: 11.5rem;
+    }
 }
