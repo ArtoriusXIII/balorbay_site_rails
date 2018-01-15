@@ -14,7 +14,7 @@ class PagesController < ApplicationController
   def services
   end
   
-  def contacts
+  def contact
   end
   
 end
