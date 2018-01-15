@@ -287,8 +287,44 @@ section#team-head-section {
     padding: 50px 0;
     .row{
       margin-bottom: -1rem;
-      
     }
+    blockquote{
+        font-size: 20px;
+        background: #f9f9f9;
+        border-left: 10px solid #ccc;
+        margin: .5em 5px;
+        padding: 0 10px;
+        quotes: "\201C""\201D""\2018""\2019";
+        padding: 10px 20px;
+        line-height: 1.4;
+        }
+
+        blockquote:before {
+          content: open-quote;
+          display: inline;
+          height: 0;
+          line-height: 0;
+          left: -10px;
+          position: relative;
+          top: 20px;
+          color: #ccc;
+          font-size: 3em;
+        }
+        
+        p{
+          margin: 0;
+        }
+        p.quotation{
+          font-style: italic;
+          color: black;
+        }
+
+        footer{
+          margin:0;
+          text-align: right;
+          font-size: 1em;
+          font-style: italic;
+        }
 }
 section#team-head-section .col-lg-12{
       padding-bottom: 0.1rem;
@@ -358,14 +394,8 @@ section#team-head-section .social .social-buttons .fa{
         }
 }
 
-p.bottom-team {
-        line-height: 1.75;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    
-}
 .button_wrapper {
-    margin: 0.3em 0 0.4em 0;
+    margin: 0.2em 0 0.2em 0;
     text-align: center;
 }
 ///CONTACT
