@@ -207,6 +207,7 @@ DEPENDENCIES
   jquery-rails
   mini_magick
   pg (~> 0.18.4)
+  popper_js (~> 1.12.9)
   puma (~> 3.0)
   rails (= 4.2.10)
   rails_12factor

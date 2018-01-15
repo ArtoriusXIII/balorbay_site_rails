@@ -21,6 +21,7 @@ gem 'puma', '~> 3.0'
 #Gems for design
 gem 'bootstrap', '~> 4.0.0.beta3'
 gem 'font-awesome-sass'
+gem 'popper_js', '~> 1.12.9'
 
 group :development, :test do
   gem 'byebug'
