@@ -73,60 +73,98 @@ section#welcome-head-section{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 800px;
-    #opacity: 0.3;
+    height: 700px;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     z-index: -1;
     margin-bottom: auto;
+    .container .first-welcome{
+      //background-color: rgba(215,226,241,0.9);
+        background-color: rgba(055, 056, 051, 0.7);
+        margin-left: 15%;
+        margin-top: 1rem;
+        padding: 2rem 2rem;
+        h1{
+          text-transform: uppercase;
+          color: #FFF3CE;
+          text-shadow: 0px 2px 3px #555;
+          margin-bottom: 2rem;
+          font-family: inherit;
+          font-weight: 800;
+          line-height: 2;
+          margin-top: 0.2rem;
+        }
+        h2.welcome-section-subheading{
+          text-transform: uppercase;
+          color: #e9ecef;
+          text-shadow: 0px 2px 3px #555;
+          margin-bottom: .5rem;
+          font-size: 1.5rem;
+          font-weight: 400;
+          line-height: 2;
+          padding: 2px 12px 0 0;
+        }
+        hr{
+          width: 12em;
+          display: block;
+          height: 2px;
+          margin: 2rem 0;
+          border-top: 2px solid $highlight;
+          text-align: center;
+        }
+        
+        .btn-primary{
+          color: white;
+          background-color: #E15D29;
+          border-radius: 1.1rem;
+          margin-top: .5rem;
+          &:hover{
+              color: $highlight;
+              }
+          }
+          .foo{
+            color: white;
+          }
+        
+    }
+    .demo a {
+      padding-top: 60px;
+      }
+    .demo a span {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 24px;
+      height: 24px;
+      margin-left: -12px;
+      border-left: 1px solid #E15D29;
+      border-bottom: 1px solid #E15D29;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+      box-sizing: border-box;
+    }
+        .demo a {
+          position: absolute;
+          bottom: 20px;
+          left: 50%;
+          z-index: 2;
+          display: inline-block;
+          -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+          color: #E15D29;
+          font : normal 600 20px/1 'Josefin Sans', sans-serif;
+          letter-spacing: .1em;
+          text-decoration: none;
+          transition: opacity .3s;
+        }
+        .demo a:hover {
+          opacity: .5;
+        }
+     
 }
 
-section#welcome-head-section .container .jumbotron1{
-  //background-color: rgba(215,226,241,0.9);
-    background-color: rgba(055, 056, 051, 0.7);
-    margin: 8.5rem 0;
-    h1{
-      text-transform: uppercase;
-      color: #FFF3CE;
-      text-shadow: 0px 2px 3px #555;
-      margin-bottom: 2rem;
-      font-family: inherit;
-      font-weight: 800;
-      line-height: 2;
-      margin-top: 1rem;
-    }
-    hr{
-    width: 12em;
-    display: block;
-    height: 2px;
-    margin: 2rem 0;
-    border-top: 2px solid $highlight;
-    text-align: center;
-    }
-    h2{
-      text-transform: uppercase;
-      color: #FFF3CE;
-      text-shadow: 0px 2px 3px #555;
-      margin-bottom: .5rem;
-      font-family: inherit;
-      font-weight: 400;
-      line-height: 2;
-      padding: 2px 12px 0 0;
-    }
-    .btn-primary{
-      color: white;
-      background-color: #E15D29;
-      border-radius: 1.1rem;
-      margin-top: .5rem;
-      &:hover{
-          color: $highlight;
-          }
-      }
-    
-}
-    
 //ABOUT US SHORT 
 section#about-head-section{
 
