@@ -65,10 +65,8 @@ hr{
 
 //Welcome page
 section#welcome-head-section{
-  
     margin-right: -15px;
     margin-left: -15px;
-
     background-image: url('https://s3-eu-west-1.amazonaws.com/balorbay-airbnb-shortletting/house+pics/image-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -129,39 +127,29 @@ section#welcome-head-section{
           }
         
     }
-    .demo a {
-      padding-top: 60px;
-      }
-    .demo a span {
-      position: absolute;
-      top: 0;
-      left: 50%;
-      width: 24px;
-      height: 24px;
-      margin-left: -12px;
-      border-left: 1px solid #E15D29;
-      border-bottom: 1px solid #E15D29;
-      -webkit-transform: rotate(-45deg);
-      transform: rotate(-45deg);
-      box-sizing: border-box;
+    a { color: white; text-decoration: none; }
+
+    .arrow {
+      text-align: center;
+      margin: 8% 0;
     }
-        .demo a {
-          position: absolute;
-          bottom: 20px;
-          left: 50%;
-          z-index: 2;
-          display: inline-block;
-          -webkit-transform: translate(0, -50%);
-          transform: translate(0, -50%);
-          color: #E15D29;
-          font : normal 600 20px/1 'Josefin Sans', sans-serif;
-          letter-spacing: .1em;
-          text-decoration: none;
-          transition: opacity .3s;
+    .bounce {
+      -moz-animation: bounce 2s infinite;
+      -webkit-animation: bounce 2s infinite;
+      animation: bounce 2s infinite;
+    }
+
+    @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {
+          transform: translateY(0);
         }
-        .demo a:hover {
-          opacity: .5;
+        40% {
+          transform: translateY(-30px);
         }
+        60% {
+          transform: translateY(-15px);
+        }
+      }
      
 }
 
