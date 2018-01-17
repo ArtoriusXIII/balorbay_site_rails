@@ -71,67 +71,60 @@ section#welcome-head-section{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 700px;
+    min-height: 700px;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     z-index: -1;
     margin-bottom: auto;
-    .container .first-welcome{
-      //background-color: rgba(215,226,241,0.9);
-        background-color: rgba(055, 056, 051, 0.7);
-        margin-left: 15%;
-        margin-top: 1rem;
-        padding: 2rem 2rem;
-        h1{
-          text-transform: uppercase;
-          color: #FFF3CE;
-          text-shadow: 0px 2px 3px #555;
-          margin-bottom: 2rem;
-          font-family: inherit;
-          font-weight: 800;
-          line-height: 2;
-          margin-top: 0.2rem;
-        }
-        h2.welcome-section-subheading{
-          text-transform: uppercase;
-          color: #e9ecef;
-          text-shadow: 0px 2px 3px #555;
-          margin-bottom: .5rem;
-          font-size: 1.5rem;
-          font-weight: 400;
-          line-height: 2;
-          padding: 2px 12px 0 0;
-        }
-        hr{
-          width: 12em;
-          display: block;
-          height: 2px;
-          margin: 2rem 0;
-          border-top: 2px solid $highlight;
-          text-align: center;
-        }
-        
-        .btn-primary{
-          color: white;
-          background-color: #E15D29;
-          border-radius: 1.1rem;
-          margin-top: .5rem;
-          &:hover{
-              color: $highlight;
-              }
+    .welcome-jumbotron2{
+      background-color: rgba(055, 056, 051, 0.7);
+      margin-top: 1rem;
+      padding-top: 1.5rem;
+      padding-left: 4rem;
+      padding-right: 4rem;
+      padding-bottom: .2rem;
+      border: 1px solid #f2cb3b;
+      }
+
+    h1.welcome-section-heading{
+      text-transform: uppercase;
+      color: #FFF3CE;
+      text-shadow: 0px 2px 3px #555;
+      margin-bottom: 1rem;
+      font-family: inherit;
+      font-weight: 800;
+      line-height: 2;
+      }
+    h2.welcome-section-subheading{
+      text-transform: uppercase;
+      color: #e9ecef;
+      text-shadow: 0px 2px 3px #555;
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 2;
+
+      }
+      .service .mx-auto {
+      margin-top: 1rem;
+      }
+    
+    .btn-primary{
+      color: white;
+      background-color: #E15D29;
+      border-radius: 1.1rem;
+
+      &:hover{
+          color: $highlight;
           }
-          .foo{
-            color: white;
-          }
-        
-    }
+      }
+      
     a { color: white; text-decoration: none; }
 
     .arrow {
       text-align: center;
-      margin: 8% 0;
+      margin: 5% 0;
     }
     .bounce {
       -moz-animation: bounce 2s infinite;
@@ -481,27 +474,35 @@ section#contact-head-section {
 
     
 //FOOTER
-#footer{
+#main-footer{
     padding: 2.5em 5%;
    
     border-top: #236943;
     background-color: #71757C;
     .copyright{
-        float: left;
-        font-size: .9am;
-        margin: 0;
-    }
-    nav{
-        float: right;
-        i{
-            color: #424652;
-            margin-left: 1em;
-            padding-top: .2em;
-            &:hover{
-                color: #8bc6db;
-            }
-        }
-    }
+          float: left;
+          text-transform: uppercase;
+          color: #e9ecef;
+          text-shadow: 0px 2px 3px #555;
+          font-size: 1.5rem;
+          font-weight: 400;
+          line-height: 2;
+          #font-size: .9am;
+          color: white;
+    
+          }
+    
+          nav{
+              float: right;
+              i{
+                  color: white;
+                  margin-left: 1em;
+                  padding-top: .2em;
+                  &:hover{
+                      color: #8bc6db;
+                  }
+              }
+          }
 }
 /*flash*/
 
