@@ -406,54 +406,6 @@ section#team-head-section .social .social-buttons .fa{
     margin: 0.2em 0 0.2em 0;
     text-align: center;
 }
-///CONTACT
-section#contact-head-section {
-    background-image: url('https://s3-eu-west-1.amazonaws.com/balorbay-airbnb-shortletting/dublin-map1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    min-height: 700px;
-    margin-right: -15px;
-    margin-left: -15px;
-    .contact-jumbotron3{
-    border: 1px solid #f2cb3b;
-    background-color: rgba(055, 056, 051, 0.7);
-    position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    }
-    h1.section-heading {
-    text-transform: uppercase;
-      color: #FFF3CE;
-      text-shadow: 0px 2px 3px #555;
-      font-family: inherit;
-      font-weight: 800;
-      line-height: 2;
-    }
-    h3.section-subheading{
-    color: #FFF3CE;
-    font-family: 'caecilia_lightregular', sans-serif;
-    font-weight: 400;
-    text-align: center;
-    margin: 1rem 0;
-    }
-    form#contactForm{
-    margin: 0 2px;
-        input{
-           min-height: 2.5rem;
-           margin-bottom: 2rem;
-        }
-        textarea{
-            min-height: 11.5rem;
-        }
-    }
-}
-  
-    
-
-
-
     
 //FOOTER
 #main-footer{
